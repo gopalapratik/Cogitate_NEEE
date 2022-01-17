@@ -1,0 +1,14 @@
+[INFO ] 2022-01-13 15:40:01.839 - testBase.MyLogger:startTestCase 15==>  
+
+************** Execution Started : Test Case 7 1642068600309**************
+
+[INFO ] 2022-01-13 15:40:04.131 - reusableComponents.ActionEngine:sendKeys_custom 31==>  User Name==> Ented value as: test.uw
+[INFO ] 2022-01-13 15:40:06.355 - reusableComponents.ActionEngine:sendKeys_custom 31==>  Password==> Ented value as: 10#Hammer
+[INFO ] 2022-01-13 15:40:14.181 - reusableComponents.ActionEngine:click_custom 75==>  LoginButton==> Clicked Successfully! 
+[INFO ] 2022-01-13 15:40:49.348 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Generate Quote==> clicked Successfully! 
+[INFO ] 2022-01-13 15:40:50.473 - reusableComponents.ActionEngine:click_custom 75==>  btn_HomeOwners==> Clicked Successfully! 
+[INFO ] 2022-01-13 15:40:51.309 - reusableComponents.ActionEngine:click_custom 75==>  btn_SubmissionNo==> Clicked Successfully! 
+[INFO ] 2022-01-13 15:40:53.690 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_Add==> Ented value as: 8086 Main Street, Manchester Center, VT, USA
+[INFO ] 2022-01-13 15:40:54.030 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_AgencyID==> Dropdown Value Selected by visible text: A E Woodford (AGT2121)
+[INFO ] 2022-01-13 15:40:54.271 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_Agent==> Dropdown Value Selected by visible text: Sue
+[INFO ] 2022-01-13 15:40:54.363 - reusableComponents.ActionEngine:click_custom 75==>  btn_Submit==> Clicked Successfully! 

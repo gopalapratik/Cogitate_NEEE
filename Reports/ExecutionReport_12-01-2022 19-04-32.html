@@ -1,0 +1,897 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DocumentTitle</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report dark">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">RPS Automation</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Jan 12, 2022 07:04:32 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">createPolicyNumbers</p>
+							<p class="duration text-sm">0h 5m 4s+335ms</p>
+							<span class="datetime">19:04:43 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">createPolicyNumbers</h5>
+									<span class='badge badge-success'>01.12.2022 19:04:43</span>
+									<span class='badge badge-danger'>01.12.2022 19:09:47</span>
+									<span class='badge badge-default'>0h 5m 4s+335ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:04:43 PM</td>
+				<td>
+						Test Data for this execution run is: {Year Built3=, Sec Insured Name=Test, Year Built2=, Year Built1=1986, Inspection Fee=Profile Pricing, password=10#Hammer, No of claims=0, Occupancy=Owner / Tenant - Short-Term Rental, PL Report Type=Exterior w/RCE, Agent=Sue, No of Properties=1, Plumbing Update Year1=1995, Plumbing Update Year3=, Plumbing Update Year2=, No Of Acres1=800, Sec Heat Source3=, Sec Heat Source2=, Sec Heat Source1=Solar, No Of Acres3=, No Of Acres2=, Square Feet3=, Square Feet1=800, Square Feet2=, Policy Term=9 Months, Primary Heat Source2=, Renewal Credits=No, Primary Heat Source1=Boiler, Primary Heat Source3=, Test Case Name=Test Case 7, Loss Assement=, Coverage D3=, Coverage D2=, Coverage D1=700, Scheduled Property1=0, Ins Contact No=9999999999, Prot Class3=, Prot Class1=7, AOP2=, Prot Class2=, AOP3=, AOP1=5000, Ins Contact Name=Test, Coverage C3=, ApplicantType=Individual, Insured Name=Test NEEE, Coverage C2=, Coverage C1=7000, No Of Families1=3, No Of Families2=, No Of Families3=, Coverage B3=, Coverage B2=, State=VT, Coverage F=0, Coverage B1=70000, Central Station Burglar and/or Fire Credit1=Yes, Central Station Burglar and/or Fire Credit2=, Central Station Burglar and/or Fire Credit3=, PolicyNo=349191, Construction Type2=, DTC3=, Construction Type1=Frame, Theft of Building Materials1=, Construction Type3=, Coverage A3=, Coverage A2=, Coverage A1=700000, Building Improve Value2=, Building Improve Value1=, Building Improve Value3=, Form Type=HO3, RC on Coverage C3=, RC on Coverage C1=Yes, RC on Coverage C2=, Heating Update Year1=1995, Agency=A E Woodford (AGT2121), address3=, address2=, address1=8085 Main Street, Manchester Center, VT, USA, Heating Update Year3=, Sr No=1, Heating Update Year2=, Roof Update Year1=1995, Wiring Update Year1=1995, Roof Update Year3=, Roof Update Year2=, Wiring Update Year3=, Wiring Update Year2=, Water Backup2=, Water Backup1=5000, Liability=0, Current Value2=, Current Value3=, Current Value1=, DTC1=<1 Mile, username=test.uw, DTC2=, Water Backup3=}
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:04:49 PM</td>
+				<td>
+						User Name==> Ented value as: test.uw
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:04:51 PM</td>
+				<td>
+						Password==> Ented value as: 10#Hammer
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:04:54 PM</td>
+				<td>
+						LoginButton==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:29 PM</td>
+				<td>
+						Generate Quote==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:30 PM</td>
+				<td>
+						btn_HomeOwners==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:30 PM</td>
+				<td>
+						btn_SubmissionNo==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:32 PM</td>
+				<td>
+						txt_Add==> Ented value as: 8085 Main Street, Manchester Center, VT, USA
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:33 PM</td>
+				<td>
+						dd_AgencyID==> Dropdown Value Selected by visible text: A E Woodford (AGT2121)
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:34 PM</td>
+				<td>
+						dd_Agent==> Dropdown Value Selected by visible text: Sue
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:34 PM</td>
+				<td>
+						btn_Submit==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:41 PM</td>
+				<td>
+						txt_insuredName==> Ented value as: Test NEEE
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:41 PM</td>
+				<td>
+						dd_FormType==> Dropdown Value Selected by visible text: HO3
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:46 PM</td>
+				<td>
+						dd_OccupancyType==> Dropdown Value Selected by visible text: Owner / Tenant - Short-Term Rental
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:51 PM</td>
+				<td>
+						dd_PolicyTerm==> Dropdown Value Selected by visible text: 9 Months
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:51 PM</td>
+				<td>
+						dd_noOfFamilies==> Dropdown Value Selected by visible text: 3
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:51 PM</td>
+				<td>
+						dd_ProtClass==> Dropdown Value Selected by visible text: 7
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:54 PM</td>
+				<td>
+						txt_yearBuilt==> Ented value as: 1986
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:56 PM</td>
+				<td>
+						txt_sqft==> Ented value as: 800
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:58 PM</td>
+				<td>
+						txt_noOfAcres==> Ented value as: 800
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:05:58 PM</td>
+				<td>
+						dd_DTC==> Dropdown Value Selected by visible text: <1 Mile
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:01 PM</td>
+				<td>
+						txt_DwellingAmt==> Ented value as: 700000
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:06:11 PM</td>
+				<td>
+						Value enter in field: txt_CurrentValue is failed due to exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:06:26 PM</td>
+				<td>
+						Value enter in field: txt_BuildingImproveValue is failed due to exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:26 PM</td>
+				<td>
+						Central Fire==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:32 PM</td>
+				<td>
+						No of claims==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:37 PM</td>
+				<td>
+						Indication button==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:43 PM</td>
+				<td>
+						txt_CoverageB==> Ented value as: 70000
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:45 PM</td>
+				<td>
+						txt_CoverageC==> Ented value as: 7000
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:06:48 PM</td>
+				<td>
+						txt_CoverageD==> Ented value as: 700
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:06:50 PM</td>
+				<td>
+						Dropdown value not selected for field: dd_CoverageE  due to exception: java.lang.NullPointerException
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:06:52 PM</td>
+				<td>
+						Dropdown value not selected for field: dd_CoverageF  due to exception: java.lang.NullPointerException
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:04 PM</td>
+				<td>
+						Dropdown Value Not present
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:04 PM</td>
+				<td>
+						dd_RepCost==> Dropdown Value Selected by visible text: Yes
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:06 PM</td>
+				<td>
+						dd_WBC==> Dropdown Value Selected by visible text: 5000
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:08 PM</td>
+				<td>
+						dd_AOP==> Dropdown Value Selected by visible text: 5000
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:09 PM</td>
+				<td>
+						dd_InspectionReq==> Dropdown Value Selected by visible text: Profile Pricing
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:09 PM</td>
+				<td>
+						dd_PLReportType==> Dropdown Value Selected by visible text: Exterior w/RCE
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:09 PM</td>
+				<td>
+						Recalculate Premium button==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:17 PM</td>
+				<td>
+						btn_ProceedToFormalQuote==> Clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:17 PM</td>
+				<td>
+						dd_ApplicantType==> Dropdown Value Selected by visible text: Individual
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:19 PM</td>
+				<td>
+						secInsuredName==> Ented value as: Test
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:22 PM</td>
+				<td>
+						InsContName==> Ented value as: Test
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:24 PM</td>
+				<td>
+						InsContNo==> Ented value as: 9999999999
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:34 PM</td>
+				<td>
+						Save Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:39 PM</td>
+				<td>
+						Dropdown value not selected for field: dd_consType  due to exception: java.lang.NullPointerException
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:39 PM</td>
+				<td>
+						Dropdown value not selected for field: dd_PrimaryHeatSource  due to exception: java.lang.NullPointerException
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:39 PM</td>
+				<td>
+						Dropdown value not selected for field: dd_secHeatSource  due to exception: java.lang.NullPointerException
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:42 PM</td>
+				<td>
+						Value enter in field: txt_HeatingUpdateYear is failed due to exception: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (272, 843)
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:44 PM</td>
+				<td>
+						Value enter in field: txt_roofUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:47 PM</td>
+				<td>
+						Value enter in field: txt_plumbingUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>7:07:49 PM</td>
+				<td>
+						Value enter in field: txt_wiringUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:49 PM</td>
+				<td>
+						Save Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:07:50 PM</td>
+				<td>
+						Save And Continue Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:02 PM</td>
+				<td>
+						Pls Explain text==> Ented value as: Pls Explain text
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:02 PM</td>
+				<td>
+						Next Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:08 PM</td>
+				<td>
+						Save & Continue Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:13 PM</td>
+				<td>
+						Save And Continue Button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:18 PM</td>
+				<td>
+						Liability button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:19 PM</td>
+				<td>
+						Recalculate button==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:28 PM</td>
+				<td>
+						Complete App==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:29 PM</td>
+				<td>
+						txt_InsContactName==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:30 PM</td>
+				<td>
+						9999999999==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:31 PM</td>
+				<td>
+						1990==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:32 PM</td>
+				<td>
+						1990==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:33 PM</td>
+				<td>
+						1990==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:35 PM</td>
+				<td>
+						1990==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:36 PM</td>
+				<td>
+						Test==> Entered Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:37 PM</td>
+				<td>
+						PolicyForms==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:08:43 PM</td>
+				<td>
+						Bind Policy==> clicked Successfully!
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:09:44 PM</td>
+				<td>
+						Policy No==> Text returned is: Congratulations, Policy #NELL1220518 has been issued successfully.
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>7:09:47 PM</td>
+				<td>
+						Test Case: createPolicyNumbers is Passed.
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='100%'>
+						<b>1</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='83.333%'><b>60</b> events passed</small></div>
+					<div>
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='16.667%'>12</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>100.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Jan 12, 2022 07:04:32 PM</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 5m 15s+80ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Environment</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Executed on Environment: </td>
+								<td>https://test.cogitate.us/NEEE.POS/</td>
+							</tr>
+							<tr>
+								<td>Executed on Browser: </td>
+								<td>chrome</td>
+							</tr>
+							<tr>
+								<td>Executed on OS: </td>
+								<td>Windows 10</td>
+							</tr>
+							<tr>
+								<td>Executed by User: </td>
+								<td>Pratik Nishi</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 1,
+		passParent: 1,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 72,
+		passEvents: 60,
+		failEvents: 0,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 12,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "createPolicyNumbers":304.335
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>

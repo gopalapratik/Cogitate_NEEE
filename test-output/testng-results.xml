@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NEEE Automation" duration-ms="315072" started-at="2022-01-12T13:34:32Z" finished-at="2022-01-12T13:39:47Z">
+    <groups>
+    </groups>
+    <test name="NEEE Tests" duration-ms="315072" started-at="2022-01-12T13:34:32Z" finished-at="2022-01-12T13:39:47Z">
+      <class name="Tests.TestDataForEndCanRein">
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.TestDataForEndCanRein@14f9390f]" name="LaunchApplication" is-config="true" duration-ms="10370" started-at="2022-01-12T13:34:33Z" finished-at="2022-01-12T13:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="createPolicyNumbers(java.lang.Object)[pri:0, instance:Tests.TestDataForEndCanRein@14f9390f]" name="createPolicyNumbers" duration-ms="304338" started-at="2022-01-12T13:34:43Z" data-provider="Policy Creation" finished-at="2022-01-12T13:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Year Built3=, Sec Insured Name=Test, Year Built2=, Year Built1=1986, Inspection Fee=Profile Pricing, password=10#Hammer, No of claims=0, Occupancy=Owner / Tenant - Short-Term Rental, PL Report Type=Exterior w/RCE, Agent=Sue, No of Properties=1, Plumbing Update Year1=1995, Plumbing Update Year3=, Plumbing Update Year2=, No Of Acres1=800, Sec Heat Source3=, Sec Heat Source2=, Sec Heat Source1=Solar, No Of Acres3=, No Of Acres2=, Square Feet3=, Square Feet1=800, Square Feet2=, Policy Term=9 Months, Primary Heat Source2=, Renewal Credits=No, Primary Heat Source1=Boiler, Primary Heat Source3=, Test Case Name=Test Case 7, Loss Assement=, Coverage D3=, Coverage D2=, Coverage D1=700, Scheduled Property1=0, Ins Contact No=9999999999, Prot Class3=, Prot Class1=7, AOP2=, Prot Class2=, AOP3=, AOP1=5000, Ins Contact Name=Test, Coverage C3=, ApplicantType=Individual, Insured Name=Test NEEE, Coverage C2=, Coverage C1=7000, No Of Families1=3, No Of Families2=, No Of Families3=, Coverage B3=, Coverage B2=, State=VT, Coverage F=0, Coverage B1=70000, Central Station Burglar and/or Fire Credit1=Yes, Central Station Burglar and/or Fire Credit2=, Central Station Burglar and/or Fire Credit3=, PolicyNo=349191, Construction Type2=, DTC3=, Construction Type1=Frame, Theft of Building Materials1=, Construction Type3=, Coverage A3=, Coverage A2=, Coverage A1=700000, Building Improve Value2=, Building Improve Value1=, Building Improve Value3=, Form Type=HO3, RC on Coverage C3=, RC on Coverage C1=Yes, RC on Coverage C2=, Heating Update Year1=1995, Agency=A E Woodford (AGT2121), address3=, address2=, address1=8085 Main Street, Manchester Center, VT, USA, Heating Update Year3=, Sr No=1, Heating Update Year2=, Roof Update Year1=1995, Wiring Update Year1=1995, Roof Update Year3=, Roof Update Year2=, Wiring Update Year3=, Wiring Update Year2=, Water Backup2=, Water Backup1=5000, Liability=0, Current Value2=, Current Value3=, Current Value1=, DTC1=<1 Mile, username=test.uw, DTC2=, Water Backup3=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicyNumbers -->
+      </class> <!-- Tests.TestDataForEndCanRein -->
+    </test> <!-- NEEE Tests -->
+  </suite> <!-- NEEE Automation -->
+</testng-results>

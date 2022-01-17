@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NEEE Automation" duration-ms="95653" started-at="2022-01-13T10:09:42Z" finished-at="2022-01-13T10:11:17Z">
+    <groups>
+    </groups>
+    <test name="NEEE Tests" duration-ms="95653" started-at="2022-01-13T10:09:42Z" finished-at="2022-01-13T10:11:17Z">
+      <class name="Tests.TestDataForEndCanRein">
+        <test-method status="PASS" signature="LaunchApplication()[pri:0, instance:Tests.TestDataForEndCanRein@34f6515b]" name="LaunchApplication" is-config="true" duration-ms="17440" started-at="2022-01-13T10:09:42Z" finished-at="2022-01-13T10:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="FAIL" signature="createPolicyNumbers(java.lang.Object)[pri:0, instance:Tests.TestDataForEndCanRein@34f6515b]" name="createPolicyNumbers" duration-ms="77165" started-at="2022-01-13T10:10:00Z" data-provider="Policy Creation" finished-at="2022-01-13T10:11:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Year Built3=, Sec Insured Name=Test, Year Built2=, Year Built1=1986, Inspection Fee=Profile Pricing, password=10#Hammer, No of claims=0, Occupancy=Owner / Tenant - Short-Term Rental, PL Report Type=Exterior w/RCE, Agent=Sue, No of Properties=1, Plumbing Update Year1=1995, Plumbing Update Year3=, Plumbing Update Year2=, No Of Acres1=800, Sec Heat Source3=, Sec Heat Source2=, Sec Heat Source1=Solar, No Of Acres3=, No Of Acres2=, Square Feet3=, Square Feet1=800, Square Feet2=, Policy Term=9 Months, Primary Heat Source2=, Renewal Credits=No, Primary Heat Source1=Boiler, Primary Heat Source3=, Test Case Name=Test Case 7, Loss Assement=, Coverage D3=, Coverage D2=, Coverage D1=700, Scheduled Property1=0, Ins Contact No=9999999999, Prot Class3=, Prot Class1=7, AOP2=, Prot Class2=, AOP3=, AOP1=5000, Ins Contact Name=Test, Coverage C3=, ApplicantType=Individual, Insured Name=Test NEEE, Coverage C2=, Coverage C1=7000, No Of Families1=3, No Of Families2=, No Of Families3=, Coverage B3=, Coverage B2=, State=VT, Coverage F=0, Coverage B1=70000, Central Station Burglar and/or Fire Credit1=Yes, Central Station Burglar and/or Fire Credit2=, Central Station Burglar and/or Fire Credit3=, PolicyNo=349191, Construction Type2=, DTC3=, Construction Type1=Frame, Theft of Building Materials1=, Construction Type3=, Coverage A3=, Coverage A2=, Coverage A1=700000, Building Improve Value2=, Building Improve Value1=, Building Improve Value3=, Form Type=HO3, RC on Coverage C3=, RC on Coverage C1=Yes, RC on Coverage C2=, Heating Update Year1=1995, Agency=A E Woodford (AGT2121), address3=, address2=, address1=8086 Main Street, Manchester Center, VT, USA, Heating Update Year3=, Sr No=1, Heating Update Year2=, Roof Update Year1=1995, Wiring Update Year1=1995, Roof Update Year3=, Roof Update Year2=, Wiring Update Year3=, Wiring Update Year2=, Water Backup2=, Water Backup1=5000, Liability=0, Current Value2=, Current Value3=, Current Value1=, DTC1=<1 Mile, username=test.uw, DTC2=, Water Backup3=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtInsuredName']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.234.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1496...}, goog:chromeOptions: {debuggerAddress: localhost:64063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d5e9be6fd670b95d98cf3dd743d5f7e
+*** Element info: {Using=xpath, value=//input[@id='txtInsuredName']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='txtInsuredName']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.234.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1496...}, goog:chromeOptions: {debuggerAddress: localhost:64063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d5e9be6fd670b95d98cf3dd743d5f7e
+*** Element info: {Using=xpath, value=//input[@id='txtInsuredName']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObjects.QuotePageObjects.enterQuoteDetails(QuotePageObjects.java:74)
+at Tests.TestDataForEndCanRein.createPolicyNumbers(TestDataForEndCanRein.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicyNumbers -->
+      </class> <!-- Tests.TestDataForEndCanRein -->
+    </test> <!-- NEEE Tests -->
+  </suite> <!-- NEEE Automation -->
+</testng-results>

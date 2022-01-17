@@ -1,0 +1,96 @@
+[INFO ] 2022-01-12 19:04:46.819 - testBase.MyLogger:startTestCase 15==>  
+
+************** Execution Started : Test Case 7 1641994483576**************
+
+[INFO ] 2022-01-12 19:04:49.077 - reusableComponents.ActionEngine:sendKeys_custom 31==>  User Name==> Ented value as: test.uw
+[INFO ] 2022-01-12 19:04:51.281 - reusableComponents.ActionEngine:sendKeys_custom 31==>  Password==> Ented value as: 10#Hammer
+[INFO ] 2022-01-12 19:04:54.952 - reusableComponents.ActionEngine:click_custom 75==>  LoginButton==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:05:29.287 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Generate Quote==> clicked Successfully! 
+[INFO ] 2022-01-12 19:05:30.421 - reusableComponents.ActionEngine:click_custom 75==>  btn_HomeOwners==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:05:30.600 - reusableComponents.ActionEngine:click_custom 75==>  btn_SubmissionNo==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:05:32.958 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_Add==> Ented value as: 8085 Main Street, Manchester Center, VT, USA
+[INFO ] 2022-01-12 19:05:33.180 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_AgencyID==> Dropdown Value Selected by visible text: A E Woodford (AGT2121)
+[INFO ] 2022-01-12 19:05:34.154 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_Agent==> Dropdown Value Selected by visible text: Sue
+[INFO ] 2022-01-12 19:05:34.232 - reusableComponents.ActionEngine:click_custom 75==>  btn_Submit==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:05:41.144 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_insuredName==> Ented value as: Test NEEE
+[INFO ] 2022-01-12 19:05:41.280 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_FormType==> Dropdown Value Selected by visible text: HO3
+[INFO ] 2022-01-12 19:05:46.470 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_OccupancyType==> Dropdown Value Selected by visible text: Owner / Tenant - Short-Term Rental
+[INFO ] 2022-01-12 19:05:51.700 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_PolicyTerm==> Dropdown Value Selected by visible text: 9 Months
+[INFO ] 2022-01-12 19:05:51.881 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_noOfFamilies==> Dropdown Value Selected by visible text: 3
+[INFO ] 2022-01-12 19:05:51.994 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_ProtClass==> Dropdown Value Selected by visible text: 7
+[INFO ] 2022-01-12 19:05:54.237 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_yearBuilt==> Ented value as: 1986
+[INFO ] 2022-01-12 19:05:56.500 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_sqft==> Ented value as: 800
+[INFO ] 2022-01-12 19:05:58.737 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_noOfAcres==> Ented value as: 800
+[INFO ] 2022-01-12 19:05:58.868 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_DTC==> Dropdown Value Selected by visible text: <1 Mile
+[INFO ] 2022-01-12 19:06:01.110 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_DwellingAmt==> Ented value as: 700000
+[INFO ] 2022-01-12 19:06:11.286 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_CurrentValue is failed due to exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+[INFO ] 2022-01-12 19:06:26.403 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_BuildingImproveValue is failed due to exception: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+[INFO ] 2022-01-12 19:06:26.559 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Central Fire==> clicked Successfully! 
+[INFO ] 2022-01-12 19:06:32.704 - reusableComponents.ActionEngine:click_custom 75==>  No of claims==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:06:37.857 - reusableComponents.ActionEngine:click_custom 75==>  Indication button==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:06:43.458 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageB==> Ented value as: 70000
+[INFO ] 2022-01-12 19:06:45.700 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageC==> Ented value as: 7000
+[INFO ] 2022-01-12 19:06:48.178 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageD==> Ented value as: 700
+[INFO ] 2022-01-12 19:06:50.281 - reusableComponents.ActionEngine:selectDropDownByValue_custom 220==>  Dropdown value not selected for field: dd_CoverageE  due to exception: java.lang.NullPointerException
+[INFO ] 2022-01-12 19:06:52.347 - reusableComponents.ActionEngine:selectDropDownByValue_custom 220==>  Dropdown value not selected for field: dd_CoverageF  due to exception: java.lang.NullPointerException
+[INFO ] 2022-01-12 19:07:04.455 - reusableComponents.ActionEngine:selectDropDownByValue_custom 217==>  Dropdown Value Not present due to NoSuchElementException
+[INFO ] 2022-01-12 19:07:04.546 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_RepCost==> Dropdown Value Selected by visible text: Yes
+[INFO ] 2022-01-12 19:07:06.663 - reusableComponents.ActionEngine:selectDropDownByValue_custom 210==>  dd_WBC==> Dropdown Value Selected by visible text: 5000
+[INFO ] 2022-01-12 19:07:08.879 - reusableComponents.ActionEngine:selectDropDownByValue_custom 210==>  dd_AOP==> Dropdown Value Selected by visible text: 5000
+[INFO ] 2022-01-12 19:07:09.005 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_InspectionReq==> Dropdown Value Selected by visible text: Profile Pricing
+[INFO ] 2022-01-12 19:07:09.224 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_PLReportType==> Dropdown Value Selected by visible text: Exterior w/RCE
+[INFO ] 2022-01-12 19:07:09.371 - reusableComponents.ActionEngine:click_custom 75==>  Recalculate Premium button==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:07:17.483 - reusableComponents.ActionEngine:click_custom 75==>  btn_ProceedToFormalQuote==> Clicked Successfully! 
+[INFO ] 2022-01-12 19:07:17.671 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 188==>  dd_ApplicantType==> Dropdown Value Selected by visible text: Individual
+[INFO ] 2022-01-12 19:07:19.937 - reusableComponents.ActionEngine:sendKeys_custom 31==>  secInsuredName==> Ented value as: Test
+[INFO ] 2022-01-12 19:07:22.114 - reusableComponents.ActionEngine:sendKeys_custom 31==>  InsContName==> Ented value as: Test
+[INFO ] 2022-01-12 19:07:24.363 - reusableComponents.ActionEngine:sendKeys_custom 31==>  InsContNo==> Ented value as: 9999999999
+[INFO ] 2022-01-12 19:07:34.520 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Save Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:07:39.294 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 198==>  Dropdown value not selected for field: dd_consType  due to exception: java.lang.NullPointerException
+[INFO ] 2022-01-12 19:07:39.341 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 198==>  Dropdown value not selected for field: dd_PrimaryHeatSource  due to exception: java.lang.NullPointerException
+[INFO ] 2022-01-12 19:07:39.388 - reusableComponents.ActionEngine:selectDropDownByVisibleText_custom 198==>  Dropdown value not selected for field: dd_secHeatSource  due to exception: java.lang.NullPointerException
+[INFO ] 2022-01-12 19:07:42.598 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_HeatingUpdateYear is failed due to exception: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (272, 843)
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-C3IEI47', ip: '172.27.237.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\conda_tmp\scoped_dir1256...}, goog:chromeOptions: {debuggerAddress: localhost:51175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5198d2632c758f54cea4a5347f1b3383
+[INFO ] 2022-01-12 19:07:44.997 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_roofUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO ] 2022-01-12 19:07:47.199 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_plumbingUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO ] 2022-01-12 19:07:49.412 - reusableComponents.ActionEngine:sendKeys_custom 40==>  Value enter in field: txt_wiringUpdateYear is failed due to exception: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+[INFO ] 2022-01-12 19:07:49.514 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Save Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:07:50.645 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Save And Continue Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:02.293 - reusableComponents.ActionEngine:sendKeys_custom 31==>  Pls Explain text==> Ented value as: Pls Explain text
+[INFO ] 2022-01-12 19:08:02.340 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Next Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:08.589 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Save & Continue Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:13.721 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Save And Continue Button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:18.123 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Liability button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:19.203 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Recalculate button==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:28.515 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Complete App==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:29.587 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  txt_InsContactName==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:30.679 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  9999999999==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:31.776 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  1990==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:32.878 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  1990==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:33.955 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  1990==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:35.049 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  1990==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:36.141 - reusableComponents.ActionEngine:sendKeysByJavaScriptExecutor 137==>  Test==> Entered Successfully! 
+[INFO ] 2022-01-12 19:08:37.281 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  PolicyForms==> clicked Successfully! 
+[INFO ] 2022-01-12 19:08:43.416 - reusableComponents.ActionEngine:clickByJavaScriptExecutor 122==>  Bind Policy==> clicked Successfully! 
+[INFO ] 2022-01-12 19:09:44.509 - reusableComponents.ActionEngine:getText_custom 251==>  Policy No==> Text returned is: Congratulations, Policy #NELL1220518 has been issued successfully.
+[INFO ] 2022-01-12 19:09:47.893 - testBase.MyLogger:endTestCase 19==>  
+
+************** Execution End : Test Case 7**************
+

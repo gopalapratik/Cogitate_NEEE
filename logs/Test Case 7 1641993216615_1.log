@@ -1,0 +1,19 @@
+[INFO ] 2022-01-12 18:43:37.501 - testBase.MyLogger:startTestCase 15==>  
+
+************** Execution Started : Test Case 7 1641993216615**************
+
+[INFO ] 2022-01-12 18:43:39.778 - reusableComponents.ActionEngine:sendKeys_custom 31==>  User Name==> Ented value as: test.uw
+[INFO ] 2022-01-12 18:43:42.064 - reusableComponents.ActionEngine:sendKeys_custom 31==>  Password==> Ented value as: 10#Hammer
+[INFO ] 2022-01-12 18:44:22.406 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_Add==> Ented value as: 8084 Main Street, Manchester Center, VT, USA
+[INFO ] 2022-01-12 18:44:37.405 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_insuredName==> Ented value as: Test NEEE
+[INFO ] 2022-01-12 18:44:50.356 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_yearBuilt==> Ented value as: 1986
+[INFO ] 2022-01-12 18:44:52.601 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_sqft==> Ented value as: 800
+[INFO ] 2022-01-12 18:44:54.871 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_noOfAcres==> Ented value as: 800
+[INFO ] 2022-01-12 18:44:57.288 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_DwellingAmt==> Ented value as: 700000
+[INFO ] 2022-01-12 18:45:40.472 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageB==> Ented value as: 70000
+[INFO ] 2022-01-12 18:45:42.682 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageC==> Ented value as: 7000
+[INFO ] 2022-01-12 18:45:44.895 - reusableComponents.ActionEngine:sendKeys_custom 31==>  txt_CoverageD==> Ented value as: 700
+[INFO ] 2022-01-12 18:46:18.265 - reusableComponents.ActionEngine:sendKeys_custom 31==>  secInsuredName==> Ented value as: Test
+[INFO ] 2022-01-12 18:46:20.508 - reusableComponents.ActionEngine:sendKeys_custom 31==>  InsContName==> Ented value as: Test
+[INFO ] 2022-01-12 18:46:22.733 - reusableComponents.ActionEngine:sendKeys_custom 31==>  InsContNo==> Ented value as: 9999999999
+[INFO ] 2022-01-12 18:47:07.910 - reusableComponents.ActionEngine:sendKeys_custom 31==>  Pls Explain text==> Ented value as: Pls Explain text

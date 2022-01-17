@@ -1,0 +1,17 @@
+Tests\ApplicationFormSummaryTest.class
+Tests\CancellationTests.class
+Tests\SummaryTest.class
+Tests\CoverageTest.class
+Tests\propertydetails.class
+Tests\EndTest.class
+Tests\EndDBTest.class
+Tests\AppTest.class
+Tests\TestDataForEndCanRein.class
+Tests\QuoteSpecificTests.class
+Tests\Contractstest.class
+Tests\FormsTest.class
+Tests\PolicyHolderTest.class
+Tests\FormsInnerTextTest.class
+Tests\AppMultiplePropTest.class
+Tests\QuoteTest.class
+Tests\UWPageTest.class

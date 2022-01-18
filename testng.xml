@@ -7,7 +7,7 @@
 	</listeners>
 	<test thread-count="1" name="NEEE Tests" parallel="classes">
 		<classes>
-			<class name="Tests.TestDataForEndCanRein" />
+			<class name="Tests.QuoteTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
